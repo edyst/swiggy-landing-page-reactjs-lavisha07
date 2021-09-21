@@ -1,0 +1,164 @@
+:root{
+    --swiggy_color:#fc8019;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.first_div{
+    width: 55vw;
+    padding: 5% 3% 0 5%;
+}
+nav{
+    display: flex;
+    padding-bottom:20px;
+}
+nav .logo_container{
+    flex:3;
+}
+#loginBtn{
+    border: none;
+    background:#fff;
+    flex: 1;
+}
+#loginBtn:hover{
+    color:#fc8019;
+}
+#signupBtn{
+    border: none;
+    background:#000;
+    color: #fff;
+    flex: 1;
+}
+.commonBtns{
+    height: 3.2rem;
+    padding:0.3rem 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first_div h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    animation: fadeslideUp;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+
+/* @keyframes fadeslideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-40%); 
+      -ms-transform: translateY(-40%);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(-50%); 
+      -ms-transform: translateY(-50%);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(-50%); 
+      -ms-transform: translateY(-50%);
+    }
+    25% {
+      opacity: 0;
+      transform: translateY(-60%);
+      -ms-transform: translateY(-60%); 
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-60%);
+      -ms-transform: translateY(-60%); 
+    }
+} */
+.first_div h3{
+    font-size: 24px;
+    font-weight: 300;
+    /* margin: 0 initial 0 initial; */
+    letter-spacing: 1px;
+    padding-top:0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-weight:200 ;
+    color: #93959f;
+    line-height: 40px;
+}
+.second_div{
+    width: 45vw;
+    background: url('./food.jpeg');
+    background-size:cover;
+}
+.searchDiv{
+    height: 58px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid var(--swiggy_color); */
+    margin-bottom: 30px;
+}
+
+.searchDiv input{
+    height: 100%;
+    flex: 2;
+    border: none;
+    padding-left: 1rem ;
+    font-size: 17px;
+    color: #7e808c;
+}
+.searchDiv input:focus{
+    outline: none;
+}
+
+
+#locateBtn{
+    height: 100%;
+    border: none;
+    flex: 1;
+    background: none;
+    cursor: pointer;
+    color: #535665;
+}
+#locateBtn:hover{
+    background-color: #eaebf1;
+    color: black;
+}
+#input{
+    flex:3;
+    display: flex;
+    border: 1px solid #c2c3c7;
+} 
+#input:focus-within{
+    border: 1px solid var(--swiggy_color)!important;
+
+}
+#findBtn{
+    height:100%;
+    border: none;
+    background-color: var(--swiggy_color) ;
+    color: #fff;
+    flex: 1;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.first_div p{
+    color: #a9abb2;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+p span{
+    /* color: #686b78; */
+    color: #282c3f;
+    font-weight: 600;
+}
+
+.logo_container img:hover{
+    filter: drop-shadow(0px 0px 6px #eec6a6);
+}

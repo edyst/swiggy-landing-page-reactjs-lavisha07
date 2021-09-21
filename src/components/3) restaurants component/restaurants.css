@@ -1,0 +1,39 @@
+.restaurants{
+    padding: 0 7vw;
+    display: flex;
+}
+.restaurants h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    width: 30vw;
+    letter-spacing: -.45px;
+    color: #282c3f;
+}
+.restaurants p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 33vw;
+    color: #7e808c;
+    line-height: 1.2;
+}
+.left_stuff{
+    padding: 3rem 7rem 1.5rem 0;
+}
+.phone_container{
+    display: flex;
+}
+.phone_container img{
+    width: 25vw;
+}
+.downbutton_container{
+    display: flex;
+    margin: 15% 0 5% 2% ;
+}
+.downbutton_container .download_buttons{
+    background: none;
+    border: none;
+}
+.download_buttons img{
+    width: 13vw;
+}
